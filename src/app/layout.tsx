@@ -2,12 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "@stream-io/video-react-sdk/dist/css/styles.css";
 import {
-  ClerkProvider,
   RedirectToSignIn,
-  SignInButton,
   SignedIn,
-  SignedOut,
-  UserButton
+  SignedOut
 } from '@clerk/nextjs'
 import ConvexClerkProvider from "@/components/providers/ConvexClerkProvider";
 import Navbar from "@/components/Navbar";
